@@ -34,12 +34,10 @@ public class HomeWork4 {
         return result;
     }
     public static HashMap<String, Integer> magSort(HashMap<String, Integer> shopCart) {
-        HashMap<String, Integer> HASH_MAP_CHECKed = new HashMap<>();
         for (Map.Entry<String, Integer> entry : HASH_MAP.entrySet()) {
             if (entry.getValue() <= 300) HASH_MAP_CHECK.put(entry.getKey(), entry.getValue());
         }
-        System.out.println(HASH_MAP_CHECK);
-        return shopCart;
+        return HASH_MAP_CHECK;
     }
     public static final List<String> STRING_LIST = Arrays.asList(
             "Onee",
