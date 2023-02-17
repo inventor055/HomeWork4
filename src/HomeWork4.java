@@ -36,9 +36,9 @@ public class HomeWork4 {
     public static HashMap<String, Integer> magSort(HashMap<String, Integer> shopCart) {
         HashMap<String, Integer> HASH_MAP_CHECKed = new HashMap<>();
         for (Map.Entry<String, Integer> entry : HASH_MAP.entrySet()) {
-            if (entry.getValue() <= 300) HASH_MAP_CHECKed.put(entry.getKey(), entry.getValue());
+            if (entry.getValue() <= 300) HASH_MAP_CHECK.put(entry.getKey(), entry.getValue());
         }
-        System.out.println(HASH_MAP_CHECKed);
+        System.out.println(HASH_MAP_CHECK);
         return shopCart;
     }
     public static final List<String> STRING_LIST = Arrays.asList(
